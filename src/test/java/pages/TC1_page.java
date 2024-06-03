@@ -22,4 +22,14 @@ public class TC1_page {
 
     @FindBy(xpath = "//button[@name='register']")
     public WebElement RegisterButton;
+//************
+    @FindBy(xpath = "//a[@href='https://giftsandflowers.co.ke/my-account/customer-logout/?_wpnonce=fbe012ad76']")
+    public WebElement LogoutButton;
+
+    //*************
+
+    @FindBy(xpath = "//button[@name='register']")
+    public WebElement RegisterButton1;
+
+
 }

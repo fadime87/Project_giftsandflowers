@@ -63,4 +63,13 @@ public class TC1_page {
 
     @FindBy(xpath = "(//a[@class='close-side-widget wd-cross-button wd-with-text-left'])[2]")
     public WebElement CloseButton;
+
+    @FindBy(xpath = "//a[@class='remove remove_from_cart_button']")
+    public WebElement XiconforRemove;
+
+    @FindBy(xpath = "//p[@class='woocommerce-mini-cart__empty-message empty']")
+    public WebElement VerfyProductforRemove;
+
+    @FindBy(xpath = "//p[@class='return-to-shop']")
+    public WebElement ReturnToShop;
 }
